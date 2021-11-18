@@ -1,0 +1,38 @@
+[
+    {
+        "id": "debt-1",
+        "creditorId": "counterparty-1",
+        "debtorId": "counterparty-2",
+        "sum": 2500,
+        "currency": "RUR",
+        "dueDate": null,
+        "status": "OPEN"
+    },
+    {
+        "id": "debt-2",
+        "creditorId": "counterparty-1",
+        "debtorId": "counterparty-3",
+        "sum": 4900,
+        "currency": "RUR",
+        "dueDate": "2021-12-14",
+        "status": "OPEN"
+    },
+    {
+        "id": "debt-3",
+        "creditorId": "counterparty-4",
+        "debtorId": "counterparty-1",
+        "sum": 11200,
+        "currency": "RUR",
+        "dueDate": null,
+        "status": "CLOSED"
+    },
+    {
+        "id": "debt-4",
+        "creditorId": "counterparty-2",
+        "debtorId": "counterparty-1",
+        "sum": 3000,
+        "currency": "RUR",
+        "dueDate": null,
+        "status": "OPEN"
+    }
+]
