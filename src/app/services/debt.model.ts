@@ -5,7 +5,10 @@ export interface DebtRecord {
     creditorId: string; // кто дал
     debtorId: string; // кому дали, кто должен
     dueDate: Date | null,
+    description: string | null,
     status: 'OPEN' | 'CLOSED';
+    created: Date,
+    updated?: Date,
 }
 
 export interface CounterpartyRecord {

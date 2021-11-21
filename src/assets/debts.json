@@ -5,17 +5,21 @@
         "debtorId": "counterparty-2",
         "sum": 2500,
         "currency": "RUR",
+        "description": "Чек в ресторане",
         "dueDate": null,
-        "status": "OPEN"
+        "status": "OPEN",
+        "created": "2021-04-15"
     },
     {
         "id": "debt-2",
         "creditorId": "counterparty-1",
         "debtorId": "counterparty-3",
         "sum": 4900,
+        "description": null,
         "currency": "RUR",
         "dueDate": "2021-12-14",
-        "status": "OPEN"
+        "status": "OPEN",
+        "created": "2021-03-11"
     },
     {
         "id": "debt-3",
@@ -23,8 +27,10 @@
         "debtorId": "counterparty-1",
         "sum": 11200,
         "currency": "RUR",
+        "description": "Попросил кинуть на телефон, потом объяснит",
         "dueDate": null,
-        "status": "CLOSED"
+        "status": "CLOSED",
+        "created": "2021-09-21"
     },
     {
         "id": "debt-4",
@@ -33,6 +39,9 @@
         "sum": 3000,
         "currency": "RUR",
         "dueDate": null,
-        "status": "OPEN"
+        "description": "Коммуналка, август, Сбербанк",
+        "status": "OPEN",
+        "created": "2021-09-14",
+        "updated": "2021-09-27"
     }
 ]
